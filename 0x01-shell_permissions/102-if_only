@@ -1,2 +1,2 @@
-#/bin/bash
+#!/bin/bash
 if [[$(stat --format '%G' "{hello}") = "guillaume"]]; then chown betty hello fi
